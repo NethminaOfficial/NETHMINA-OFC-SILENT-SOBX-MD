@@ -26,14 +26,14 @@ const url = data.url
 const ytdl = await fetchJson(`${apilink}/download/ytmp3?url=${data.url}`)
     
 let message = `‎‎
-╭═══🎶❃ SILENT-SOBX-MD MUSIC DOWNLOADER ❃🎶═══⊷
+╭═══🎶❃ *SILENT-SOBX-MD-MUSIC-DOWNLOADER* ❃🎶═══⊷
 ┃❃╭──────────────
-┃❃│🎵 ‎Title: ${data.title}
-┃❃│ ⏱ Duration: ${data.timestamp}
-┃❃│🌏 Uploaded: ${data.ago}
-┃❃│🧿 Views: ${data.views}
-┃❃│🤵 Author: ${data.author.name}
-┃❃│📎 Url: ${data.url}
+┃❃│🎵 ‎TITLE: ${data.title}
+┃❃│ ⏱ DURATION: ${data.timestamp}
+┃❃│🌏 UPLOADED: ${data.ago}
+┃❃│🧿 VIEWS: ${data.views}
+┃❃│🤵 AUTHOR: ${data.author.name}
+┃❃│📎 URL: ${data.url}
 ┃❃╰───────────────
 ╰═════════════════⊷
 > © ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛʟᴏᴠᴇʀ⁴³² 👩‍💻
@@ -45,7 +45,7 @@ await conn.sendMessage(from, { image: { url : data.thumbnail }, caption: message
   
 // SEND AUDIO NORMAL TYPE and DOCUMENT TYPE
 await conn.sendMessage(from, { audio: { url: ytdl.result.dl_link }, mimetype: "audio/mpeg" }, { quoted: mek })
-await conn.sendMessage(from, { document: { url: ytdl.result.dl_link }, mimetype: "audio/mpeg", fileName: data.title + ".mp3", caption: `${data.title}`}, { quoted: mek })
+await conn.sendMessage(from, { document: { url: ytdl.result.dl_link }, mimetype: "audio/mpeg", fileName: data.title + ".mp3", caption: `*© ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛʟᴏᴠᴇʀ···⁴³²* 👩‍💻`}, { quoted: mek })
   
 } catch(e){
 console.log(e)
@@ -69,21 +69,21 @@ if(!q) return reply("*Please give me a title*")
 let search = await yts(q)
 let link = search.all[0].url
 let desc = `
-*──────────────────*
+*╭──────────●●►*
 _*♻️ SILENT-SOBX-MD VIDEO DOWNLOADER ♻️*_
-*──────────────────*
+*╰──────────●●►*
 
- *♻️Title :* ${search.all[0].title}
+ *♻️ TITLE:* ${search.all[0].title}
 
- *♻️Description :* ${search.all[0].description}
+ *♻️ DESCRIPTION:* ${search.all[0].description}
 
- *♻️Duration :* ${search.all[0].timestamp}
+ *♻️ DURATION:* ${search.all[0].timestamp}
 
- *♻️Ago :* ${search.all[0].ago}
+ *♻️ AGO:* ${search.all[0].ago}
 
- *♻️Views :* ${search.all[0].views}
+ *♻️ VIEWS:* ${search.all[0].views}
 
- *♻️URL :* ${search.all[0].url}
+ *♻️ URL:* ${search.all[0].url}
 
 > © ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛʟᴏᴠᴇʀ⁴³² 👩‍💻
 
