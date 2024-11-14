@@ -12,7 +12,32 @@ AUTO_VOICE: process.env.AUTO_VOICE || "true",
 AUTO_STICKER: process.env.AUTO_STICKER || "true",
 AUTO_REPLY: process.env.AUTO_REPLY || "true",
 ALIVE_IMG: process.env.ALIVE_IMG || "https://telegra.ph/file/7dd5b186621993e20b73b.jpg",
-ALIVE_MSG: process.env.ALIVE_MSG || "",
+ALIVE_MSG: process.env.ALIVE_MSG || "*𝐍𝐄𝐓𝐇𝐌𝐈𝐍𝐀 𝐎𝐅𝐂 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐁𝐎𝐓* 
+
+*Hᴇʟʟᴏ....I'ᴍ Aʟɪᴠᴇ Nᴏᴡ...🙋‍♂💗*
+
+┌───────────────────────
+
+*CONTACT NO* - https://wa.me/+94776369728?text=Hi
+
+*GROUP LINK* - https://chat.whatsapp.com/FUGjjEbLPQp7KHL5jAUJb8
+
+ 🔥  *Ｆᴏʀ ＳᴛΔᵀᴜs Vɪᴇᴡs* ° 🔥
+┌───────────────────────
+├ 🍓 *Name* :-  *_BHASHITHA NETHMINA_* 
+├ 🍓 *Nick Name* :-  *_NETHMINA OFC_*  
+├ 🍓 *Age* :-  *_17  YEARS OLD_*
+├ 🍓 *Live in* :- *_GALLE_*
+├ 🍓 *Contact* :- 94776369728
+└───────────────────────
+
+*🗓 Type [.menu] for my command list.*
+
+*🛜 𝚸𝚯𝐖𝚵𝚪𝚵𝐃 𝐁𝐘 𝐍𝐄𝐓𝐇𝐌𝐈𝐍𝐀 𝐎𝐅𝐂 𝐂𝐎𝐌𝐌𝐔𝐍𝐈𝐓𝐘*
+
+
+> ♡ ㅤ      ❍ㅤ        ⎙ㅤ    ⌲ 
+> ˡᶦᵏᵉ     ᶜᵒᵐᵐᵉⁿᵗ     ˢᵃᵛᵉ    ˢʰᵃʳᵉ",
 ANTI_LINK: process.env.ANTI_LINK || "true",
 ANTI_BAD: process.env.ANTI_BAD || "true",
 PREFIX: process.env.PREFIX || ".",
